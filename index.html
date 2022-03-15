@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Flamingo Coin</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div id="brand">
+          <a href="/">
+            <img src="assets/2022-03-05_14-17-16.png" alt="">
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#tokeno">Tokenomics</a>
+            </li>
+            <li>
+              <a href="https://poocoin.app/tokens/0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1">Chart</a>
+            </li>
+            <li id="login">
+              <a href="https://pancakeswap.finance/swap">BUY</a>
+            </li>
+            <li id="">
+              <a href="https://twitter.com/FlamingoCoinBSC">
+                <img style="max-height: 40px; padding-top: 7px;" src="assets/58e9196deb97430e819064f6.png" target="_blank" alt="">
+              </a>
+            </li>
+            <li id="">
+              <a href="https://t.me/FlamingoCoinBSC">
+                <img style="max-height: 40px; padding-top: 7px;" src="assets/Telegram_logo.png" target="_blank" alt="">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#tokeno">Tokenomics</a>
+            </li>
+            <li>
+              <a href="https://poocoin.app/tokens/0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1">Chart</a>
+            </li>
+            <li id="login">
+              <a href="https://pancakeswap.finance/swap">BUY</a>
+            </li>
+            <li id="">
+              <a href="https://twitter.com/FlamingoCoinBSC">
+                <img style="max-height: 40px; padding-top: 7px;" src="assets/58e9196deb97430e819064f6.png" target="_blank" alt="">
+              </a>
+            </li>
+            <li id="">
+              <a href="https://t.me/FlamingoCoinBSC">
+                <img style="max-height: 40px; padding-top: 7px;" src="assets/Telegram_logo.png" target="_blank" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="main-container grid-container">
+      <div id="main-left">
+        <h1>The Finest Flamingo in De-Fi!</h1>
+        <h2>Welcome to  <span>Flamingo Coin</span>
+        </h2>
+        <p>Your favorite bird is here... She has patiently waded through the De-Fi wetlands, waiting for the perfect opportunity to take flight. The time is now – Join her as she readies her flame colored feathers to soar to the stars! She is ready to give her worldly relatives (other tokens) the slip, on her way to the stratosphere and beyond! </p>
+        <p>Grab your bag of Flamingo Coin on PanCakeSwap and join the moon mission!</p>
+        <a href="https://t.me/FlamingoCoinBSC" class="myButton2">Join the Community →</a>
+        <a href="https://poocoin.app/tokens/0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1" class="myButton">Chart →</a>
+      </div>
+      <picture id="main-image">
+        <source srcset="assets/main.png" type="image/webp">
+        <img src="assets/main.png" alt="" class="responsive">
+      </picture>
+    </main>
+    <div id="contract">
+      <div class="copy-text">
+        <p>Contract:</p>
+        <input type="text" class="text" value="0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1" readonly>
+        <button onmouseout="outFunc()" class="tooltip">
+          <span class="tooltiptext" id="myTooltip"></span>
+          <i class="fa fa-clone"></i>
+        </button>
+      </div>
+    </div>
+    <div class="tokenomics grid-container" id="tokeno">
+      <div class="portrait ">
+        <source srcset="assets/tokenomics.png" type="image/webp" class="responsive">
+        <img src="assets/tokenomics.png" alt="tokenomics class="responsive">
+      </div>
+      <div class="description-container">
+        <div class="description">
+          <h1>TOKENOMICS:</h1>
+          <p>Inspired by the Catcoin, with a twist… Flamingo Coin (FLAMINGO) is built on a new BSC contract, with a low 2% buy and 2% sell tax. These taxes are allocated to help the project grow. 70% of the taxes go to the marketing wallet. 15% of the taxes are automatically added to the liquidity pool. 15% of the taxes accumulate for manual buyback & liquidity adding.
+            Flamingo Coin implements a 3% Max Wallet to keep the whales in check.
+            The initial LP was burned & the contract was renounced… Flamingo Coin is SAFE.  
+            </p>
+          <p>Supply: 1,000,000,000,000 (100% of supply added to starting LP)</p>
+          <p>
+            <b>Taxes: </b>
+            <br/>2% buy tax & 2% sell tax <br /> 
+            <b>Tax Allocation: </b> 
+            <br/> 70% of taxes go to marketing wallet.
+            <br/> 15% of taxes automatically added to LP.
+            <br/> 15% of taxes accumulate for manual buyback and liquidity adding
+            <br/> LP Lock: (Forever)
+            <br/> LP tokens were sent to the burn address right after trading started.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="centerplease"> FAQ accordion </div>
+      <br>
+      <div class="faq-content">
+        <div>
+          <input type="checkbox" id="question1" name="q" class="questions">
+          <div class="plus">+</div>
+          <label for="question1" class="question"> How do I buy Flamingo </label>
+          <div class="answers"> First, you'll head over to Poocoin. Head to the top right corner and go ahead and connect your preferred wallet (Metamask, Trust Wallet, etc.) <br>
+            <br> You can then start swapping for Flamingo Coin! Use auto-slippage and PooCoin will properly adjust to make sure your transaction goes cleanly and adjust for any rounding errors.
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="question2" name="q" class="questions">
+          <div class="plus">+</div>
+          <label for="question2" class="question"> Are you on Social media? </label>
+          <div class="answers"> Of course! Our socials can be at the top or bottom of this page... </div>
+        </div>
+        <div>
+          <input type="checkbox" id="question3" name="q" class="questions">
+          <div class="plus">+</div>
+          <label for="question3" class="question"> Why does the coin not show up in TrustWallet? </label>
+          <div class="answers">The most common reason for this is that you still need to add Flamingo Coin as a custom token. <br>
+            <br> Here's how to do so: <br>
+            <br>
+            <strong>1)</strong> Click on the search token button and start typing. Once you see "add custom token" go ahead and click it. <br>
+            <strong>
+              <br>2) </strong>Fill in Flamingo Coin's custom token ID : 0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1 <br>
+            <br>
+            <strong>3) </strong>Fill the token details with the name as well. Also make sure to select the Binance Smart Chain. <br>
+            <br>
+            <strong>4)</strong> Flamingo should now appear in your wallet. If you still have questions, you can ask in TG.
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="question5" name="q" class="questions">
+          <div class="plus">+</div>
+          <label for="question5" class="question"> Why are people saying this is rug-proof? </label>
+          <div class="answers">Because we have burned our liquidity, therefore developers cannot make short term profits on the the remaining liquidity after project dies. Devs care a lot for this project and see this as a long term endevour. The only way devs get paid is through the small % in tax fees. Therefore, the only way devs get paid is through our investors believing in us. <br>
+            <br>Secondly, the contract is renounced - we can't change, edit or touch it. Also, we've made sure that the contract is custom-made and not a lazy copy/paste. You can check any screeners and you can see we have a very based and clean smart contract.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chart-container">
+      <h2>CHART:</h2>
+      <div id="dexscreener-embed">
+        <iframe src="https://dexscreener.com/bsc/0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1?embed=1&theme=dark"></iframe>
+      </div>
+    </div>
+    </div>
+    <div class="inbetween">
+      <img src="assets/Rocket.png" alt="rocket">
+    </div>
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="https://t.me/FlamingoCoinBSC">
+          <i class="fa fa-telegram"></i>
+        </a>
+        <a href="https://twitter.com/FlamingoCoinBSC">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#home">Home</a>
+          <a href="#tokeno">Tokenomics</a>
+          <a href="https://pancakeswap.finance/swap">Buy</a>
+          <a href="https://poocoin.app/tokens/0xeb5e6716a9c0c8d1643181d8283efbd3b99b0aa1">Chart</a>
+        </p>
+        <p>&copy; 2022 Flamingo Coin - All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="menu-toggle.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
